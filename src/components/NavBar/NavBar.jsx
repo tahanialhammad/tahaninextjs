@@ -1,13 +1,13 @@
-"use client"
 import Link from "next/link";
 import styles from "./navBar.module.css";
 import { links } from "./navdata";
-import Button from "../Button/Button";
+import Button from "../../elements/Button/Button";
+import Logo from "../../elements/Logo/Logo"
 
 export default function NavBar() {
     return (
       <div className={styles.container}>
-          <Link href="/" className={styles.logo}>Logo</Link>
+        <Logo/>
 
           <div className={styles.links}>
             {links.map(link =>

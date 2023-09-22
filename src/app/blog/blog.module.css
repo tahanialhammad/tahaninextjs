@@ -1,0 +1,23 @@
+.post{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #555;
+    border-radius: 15px;
+}
+.post:nth-child(even){
+    /* background-color: black; */
+    flex-direction: row-reverse;
+}
+.postImg{
+    object-fit: cover;
+    border-radius: 15px;
+}
+.postTitle{
+    font-weight: 700;
+}
+.postText{
+    font-size: 18px;
+    color: #999;
+}

@@ -1,3 +1,11 @@
+:root{
+  --color-primary : #6C63FF;
+  --color-secondary: #ff6884;
+  --color-light :  #bbb;
+  --color-dark :  #111;
+  --border-radius : 5px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

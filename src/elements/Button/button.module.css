@@ -1,7 +1,8 @@
 .logout{
-    background-color: #6C63FF;
+    background-color:var(--color-primary);
     padding: 5px 10px;
     color:white;
+    font-size: 18px;
     border-radius: var(--border-radius);
-    border: 1px solid white;
+    border: none;
 }

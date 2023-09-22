@@ -1,9 +1,9 @@
-:root{
-  --color-primary : #6C63FF;
+:root {
+  --color-primary: #6C63FF;
   --color-secondary: #ff6884;
-  --color-light :  #bbb;
-  --color-dark :  #111;
-  --border-radius : 5px;
+  --color-light: #bbb;
+  --color-dark: #111;
+  --border-radius: 5px;
 }
 
 * {
@@ -17,8 +17,6 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #111;
-  color: #bbb;
 }
 
 a {
@@ -40,4 +38,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.light {
+  background-color: white;
+  color: #111;
+}
+
+.dark {
+  background-color: #111;
+  color: #bbb;
 }

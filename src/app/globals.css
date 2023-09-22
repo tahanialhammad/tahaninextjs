@@ -40,6 +40,10 @@ a {
   justify-content: space-between;
 }
 
+.theme{
+transition: .5s all ease-in-out;
+}
+
 .light {
   background-color: white;
   color: #111;

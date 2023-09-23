@@ -21,7 +21,7 @@ export default async function Products() {
     <div className={styles.productsContainer}>
       {
         products.map(product => (
-              <Link href="/products/id" className={styles.post} key={product.id}>
+              <Link href={`/products/${product.id}`} className={styles.post} key={product.id}>
               <div className={styles.imgContainer}>
                 {/*  configure under images in your `next.config.js` */}
                 <Image

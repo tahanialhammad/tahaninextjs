@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function Blog() {
   return (
     <div className={styles.blogContainer}>
-      <Link href="/id" className={styles.post}>
-        <div className={styles.postImg}>
+      <Link href="/blog/id" className={styles.post}>
+        <div className={styles.imgContainer}>
           {/*  configure under images in your `next.config.js` */}
           <Image
-            className={styles.img}
+            className={styles.postImg}
             src={
-              "https://images.pexels.com/photos/13352373/pexels-photo-13352373.jpeg"
+              "https://images.pexels.com/photos/18378793/pexels-photo-18378793/free-photo-of-natuurkind.jpeg"
             }
             width={350}
             height={250}
@@ -28,6 +28,15 @@ export default function Blog() {
           </p>
         </div>
       </Link>
+
+
+
+
+
+
+
+
+
 
       <Link href="/id" className={styles.post}>
         <div className={styles.postImg}>

@@ -1,0 +1,38 @@
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(3 ,32%);
+    gap: 15px;
+}
+
+.post{
+    flex-grow: 1;
+    border: 1px solid #555;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.post:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.post:nth-child(even){
+    /* background-color: black; */
+    /* flex-direction: row-reverse; */
+}
+.imgContainer{
+    position: relative;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.image{
+    object-fit: cover;
+    border-radius: 15px;
+}
+.title{
+    font-weight: 700;
+}
+.text{
+    font-size: 18px;
+    color: #999;
+}

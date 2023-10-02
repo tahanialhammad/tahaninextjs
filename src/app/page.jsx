@@ -13,7 +13,7 @@ export default function Home() {
       <div className={styles.col}>
         <Image src={Hero} className={styles.img}/>
       </div>
-
+Lateste update befor delete from laptop
     </div>
   )
 }

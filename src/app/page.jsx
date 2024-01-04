@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.col}>
         <h1 className={styles.title}>Tahani Next Js Project</h1>
-        <p className={styles.desc}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quis corrupti omnis delectus laudantium! Autem, officiis tempore. Eligendi corporis quas voluptas amet, harum exercitationem deserunt minus quo sit soluta corrupti.</p>
+        <p className={styles.desc}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quis corrupti omnis delectus laudantium! Autem ...</p>
         <button className={styles.btnPrimary}>More information</button>
       </div>
       <div className={styles.col}>
